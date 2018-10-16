@@ -59,8 +59,6 @@ Selenium was used for web automation. It is used to choose the next “bc-” el
 
 # Base website [here.](https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/)
 
-# Detailed information about this project on [DevPost!](https://devpost.com/software/blinkception)
-
 # Installation instructions on Windows
 
 1) Download the latest version of Anaconda from https://www.anaconda.com/download/
@@ -97,7 +95,7 @@ Libraries for speech-to-text conversion and face-recognition:
 
 ``` pip install face_recognition ```
 
-### Devpost for this project is [here.](https://devpost.com/software/blinkception)
-### See Blinkception on the winner list [here!!!](https://intuitionv5.devpost.com/submissions)
+## Devpost for this project is [here.](https://devpost.com/software/blinkception)
+## See Blinkception on the winner list [here!!!](https://intuitionv5.devpost.com/submissions)
 
 ### Made by [@RohanGautam](https://github.com/RohanGautam) , [@ShirleyHan6](https://github.com/ShirleyHan6) , [@laksh22](https://github.com/laksh22) , [@Atrik-Das](https://github.com/Atrik-Das)
