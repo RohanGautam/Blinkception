@@ -1,10 +1,9 @@
 This repository contains python programs developed during iNTUition 5.0, a one-day hackathon held by NTU Open Source Society and iEEE Student Organization in Nanyang Technological University, Singapore. 
 
-# Base website: 
-## https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/
+# Base website [here.](https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/)
 
-# More information on this project on DevPost
-https://devpost.com/software/blinkception
+# Detailed information about this project on [DevPost!](https://devpost.com/software/blinkception)
+
 # Installation instructions on Windows
 
 1) Download the latest version of Anaconda from https://www.anaconda.com/download/
@@ -40,3 +39,5 @@ Libraries for speech-to-text conversion and face-recognition:
 ``` pip install SpeechRecognition ```
 
 ``` pip install face_recognition ```
+
+### Made by [@RohanGautam](https://github.com/RohanGautam) , [@ShirleyHan6](https://github.com/ShirleyHan6) , [@laksh22](https://github.com/laksh22) , [@Atrik-Das](https://github.com/Atrik-Das)
