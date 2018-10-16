@@ -29,7 +29,7 @@ The WeChat message is sent using WeChat API, itchat. An emergency message is sen
 The email is sent using Python’s smtplib library which provides backend features for handling the sending and receiving of emails from one account to another.
 ### Website
 The demo website was made using Materialize which is a CSS library very similar to Google’s renowned Material Design. There are multiple interactive elements which have classes such as ```bc-button``` or ```bc-1```. These help the web control script identify the list of interactive elements and how to interact with them. The [website](https://laksh22.github.io/blinkception-site/index.html) was hosted using GitHub pages.
-###Web automation
+### Web automation
 Selenium was used for web automation. It is used to choose the next “bc-” element and scroll to it. A separate function decides the type of element it is and how to interact with it accordingly. 
 
 
