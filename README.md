@@ -20,7 +20,7 @@ Finally, we allow the users to send emergency Emails and WeChat messages. Once t
 ![Final control interface](https://user-images.githubusercontent.com/17317792/46990488-17a51700-d134-11e8-969b-d6136c0eb9c6.png "Final control interface")
 
 ## How we built it
-###F acial Recognition
+### Facial Recognition
 We use an [existing library](https://pypi.org/project/face_recognition/) for implementing facial recognition of the user. This is used to verify and use pre saved thresholds unique to each user. For the blink, eyebrow raise and mouth open detection, we use a pre trained model that takes in a video frame and returns a list of 68 (x,y) coordinates of the facial landmarks detected. We then perform computations on this data to get the respective thresholds and record changes to trigget an evev.
 ### Morse Code Decipher
 The typing process consists of registering a blink as a dot and an eyebrow raise as a dash. Once the user is satisfied with the current pattern typed, they can open their mouth to enter the string into our decipher function. Thus a sequence of these operations can be used to interpret Morse code and type a complete message. 
