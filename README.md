@@ -20,14 +20,14 @@ Finally, we allow the users to send emergency Emails and WeChat messages. Once t
 ![Final control interface](https://user-images.githubusercontent.com/17317792/46990488-17a51700-d134-11e8-969b-d6136c0eb9c6.png "Final control interface")
 
 ## How we built it
-###Facial Recognition
+###F acial Recognition
 We use an [existing library](https://pypi.org/project/face_recognition/) for implementing facial recognition of the user. This is used to verify and use pre saved thresholds unique to each user. For the blink, eyebrow raise and mouth open detection, we use a pre trained model that takes in a video frame and returns a list of 68 (x,y) coordinates of the facial landmarks detected. We then perform computations on this data to get the respective thresholds and record changes to trigget an evev.
-###Morse Code Decipher
+### Morse Code Decipher
 The typing process consists of registering a blink as a dot and an eyebrow raise as a dash. Once the user is satisfied with the current pattern typed, they can open their mouth to enter the string into our decipher function. Thus a sequence of these operations can be used to interpret Morse code and type a complete message. 
 ###WeChat and Email
 The WeChat message is sent using WeChat API, itchat. An emergency message is sent after a user to logs in by scanning the QR code. 
 The email is sent using Python’s smtplib library which provides backend features for handling the sending and receiving of emails from one account to another.
-###Website
+### Website
 The demo website was made using Materialize which is a CSS library very similar to Google’s renowned Material Design. There are multiple interactive elements which have classes such as ```bc-button``` or ```bc-1```. These help the web control script identify the list of interactive elements and how to interact with them. The [website](https://laksh22.github.io/blinkception-site/index.html) was hosted using GitHub pages.
 ###Web automation
 Selenium was used for web automation. It is used to choose the next “bc-” element and scroll to it. A separate function decides the type of element it is and how to interact with it accordingly. 
